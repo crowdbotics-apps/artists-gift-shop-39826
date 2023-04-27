@@ -1,14 +1,21 @@
+import { useNavigation } from "@react-navigation/native";
+import { Pressable } from "react-native";
 import { Text } from "react-native";
 import { StyleSheet, ScrollView, SafeAreaView } from "react-native";
 
 const Untitled8 = () => {
+  const navigation = useNavigation();
   return <SafeAreaView style={styles.safeArea}>
         <ScrollView contentContainerStyle={{
       backgroundColor: '#f0f0f1',
       padding: 10,
       position: 'relative',
       flex: 1
-    }}><Text style={styles.gNKhHTle}>{"Artist"}</Text><Text style={styles.mThmSnBI}>{"Customer"}</Text></ScrollView>
+    }}><Pressable onPress={() => {
+        navigation.navigate("Untitled13");
+      }}><Text style={styles.gNKhHTle}>{"Artist"}</Text></Pressable><Pressable onPress={() => {
+        navigation.navigate("Untitled13");
+      }}><Text style={styles.mThmSnBI}>{"Customer"}</Text></Pressable></ScrollView>
     </SafeAreaView>;
 };
 
