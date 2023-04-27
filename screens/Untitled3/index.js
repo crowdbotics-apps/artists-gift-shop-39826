@@ -22,7 +22,9 @@ const Untitled3 = () => {
       }}><Text style={styles.aqRoBOat}>{"Terms and conditions"}</Text></Pressable><Pressable onPress={() => {
         navigation.navigate("Untitled8");
       }}><Text style={styles.xyBXYyeX}>{"Sign up/ Sign in"}</Text></Pressable></ScrollView>
-    </SafeAreaView>;
+    <Pressable onPress={() => {
+      navigation.navigate("Untitled9");
+    }}><Text style={styles.fOFJCUUj}>{"Social page"}</Text></Pressable></SafeAreaView>;
 };
 
 const styles = StyleSheet.create({
@@ -58,6 +60,13 @@ const styles = StyleSheet.create({
     borderRadius: 0
   },
   xyBXYyeX: {
+    width: 100,
+    height: 50,
+    lineHeight: 14,
+    fontSize: 14,
+    borderRadius: 0
+  },
+  fOFJCUUj: {
     width: 100,
     height: 50,
     lineHeight: 14,
