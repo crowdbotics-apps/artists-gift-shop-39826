@@ -8,7 +8,7 @@ const Untitled8 = () => {
       padding: 10,
       position: 'relative',
       flex: 1
-    }}><Text style={styles.myYbJJYO}>{"Sign in"}</Text><Text style={styles.HHUMSDPN}>{"Sign up"}</Text></ScrollView>
+    }}><Text style={styles.gNKhHTle}>{"Artist"}</Text><Text style={styles.mThmSnBI}>{"Customer"}</Text></ScrollView>
     </SafeAreaView>;
 };
 
@@ -16,14 +16,14 @@ const styles = StyleSheet.create({
   safeArea: {
     height: '100%'
   },
-  myYbJJYO: {
+  gNKhHTle: {
     width: 100,
     height: 50,
     lineHeight: 14,
     fontSize: 14,
     borderRadius: 0
   },
-  HHUMSDPN: {
+  mThmSnBI: {
     width: 100,
     height: 50,
     lineHeight: 14,
