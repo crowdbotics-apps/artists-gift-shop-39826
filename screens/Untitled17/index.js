@@ -19,7 +19,11 @@ const Untitled17 = () => {
         navigation.navigate("Untitled9");
       }}><Text style={styles.NRCmlamd}>{"Social page"}</Text></Pressable><Pressable onPress={() => {
         navigation.navigate("Untitled27");
-      }}><Text style={styles.wPbTeoEb}>{"orders"}</Text></Pressable></ScrollView>
+      }}><Text style={styles.wPbTeoEb}>{"orders"}</Text></Pressable><Pressable onPress={() => {
+        navigation.navigate("Untitled35");
+      }}><Text style={styles.oszMGsnr}>{"Wallet"}</Text></Pressable><Pressable onPress={() => {
+        navigation.navigate("Untitled34");
+      }}><Text style={styles.epYyttYv}>{"Settings"}</Text></Pressable></ScrollView>
     </SafeAreaView>;
 };
 
@@ -49,6 +53,20 @@ const styles = StyleSheet.create({
     borderRadius: 0
   },
   wPbTeoEb: {
+    width: 100,
+    height: 50,
+    lineHeight: 14,
+    fontSize: 14,
+    borderRadius: 0
+  },
+  oszMGsnr: {
+    width: 100,
+    height: 50,
+    lineHeight: 14,
+    fontSize: 14,
+    borderRadius: 0
+  },
+  epYyttYv: {
     width: 100,
     height: 50,
     lineHeight: 14,

@@ -3,7 +3,7 @@ import { Pressable } from "react-native";
 import { Text } from "react-native";
 import { StyleSheet, ScrollView, SafeAreaView } from "react-native";
 
-const Untitled34 = () => {
+const Untitled37 = () => {
   const navigation = useNavigation();
   return <SafeAreaView style={styles.safeArea}>
         <ScrollView contentContainerStyle={{
@@ -12,10 +12,8 @@ const Untitled34 = () => {
       position: 'relative',
       flex: 1
     }}><Pressable onPress={() => {
-        navigation.navigate("Untitled39");
-      }}><Text style={styles.rPAmJkHm}>{"Change password"}</Text></Pressable><Pressable onPress={() => {
-        navigation.navigate("Untitled5");
-      }}><Text style={styles.LmsNlgyE}>{"Support/ Send Feedback"}</Text></Pressable></ScrollView>
+        navigation.navigate("Untitled38");
+      }}><Text style={styles.hvhxpCjA}>{"Details"}</Text></Pressable></ScrollView>
     </SafeAreaView>;
 };
 
@@ -23,14 +21,7 @@ const styles = StyleSheet.create({
   safeArea: {
     height: '100%'
   },
-  rPAmJkHm: {
-    width: 100,
-    height: 50,
-    lineHeight: 14,
-    fontSize: 14,
-    borderRadius: 0
-  },
-  LmsNlgyE: {
+  hvhxpCjA: {
     width: 100,
     height: 50,
     lineHeight: 14,
@@ -38,4 +29,4 @@ const styles = StyleSheet.create({
     borderRadius: 0
   }
 });
-export default Untitled34;
+export default Untitled37;
