@@ -13,7 +13,7 @@ const Untitled19 = () => {
       flex: 1
     }}><Pressable onPress={() => {
         navigation.navigate("Untitled21");
-      }}><Text style={styles.kngHIqYB}>{"Upload Files"}</Text></Pressable></ScrollView>
+      }}><Text style={styles.kngHIqYB}>{"Upload Files"}</Text></Pressable><Pressable><Text style={styles.arAPFdIY}>{"Submit"}</Text></Pressable></ScrollView>
     </SafeAreaView>;
 };
 
@@ -22,6 +22,13 @@ const styles = StyleSheet.create({
     height: '100%'
   },
   kngHIqYB: {
+    width: 100,
+    height: 50,
+    lineHeight: 14,
+    fontSize: 14,
+    borderRadius: 0
+  },
+  arAPFdIY: {
     width: 100,
     height: 50,
     lineHeight: 14,
