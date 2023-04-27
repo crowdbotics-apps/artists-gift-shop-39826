@@ -19,7 +19,9 @@ const Untitled3 = () => {
         navigation.navigate("Untitled6");
       }}><Text style={styles.nYmCbKwg}>{"Privacy policy"}</Text></Pressable><Pressable onPress={() => {
         navigation.navigate("Untitled7");
-      }}><Text style={styles.aqRoBOat}>{"Terms and conditions"}</Text></Pressable></ScrollView>
+      }}><Text style={styles.aqRoBOat}>{"Terms and conditions"}</Text></Pressable><Pressable onPress={() => {
+        navigation.navigate("Untitled8");
+      }}><Text style={styles.xyBXYyeX}>{"Sign up/ Sign in"}</Text></Pressable></ScrollView>
     </SafeAreaView>;
 };
 
@@ -49,6 +51,13 @@ const styles = StyleSheet.create({
     borderRadius: 0
   },
   aqRoBOat: {
+    width: 100,
+    height: 50,
+    lineHeight: 14,
+    fontSize: 14,
+    borderRadius: 0
+  },
+  xyBXYyeX: {
     width: 100,
     height: 50,
     lineHeight: 14,
