@@ -21,7 +21,9 @@ const Untitled16 = () => {
         navigation.navigate("Untitled9");
       }}><Text style={styles.dmBwFmym}>{"Social page"}</Text></Pressable><Pressable onPress={() => {
         navigation.navigate("Untitled28");
-      }}><Text style={styles.dJvOFpui}>{"Favorite"}</Text></Pressable></ScrollView>
+      }}><Text style={styles.dJvOFpui}>{"Favorite"}</Text></Pressable><Pressable onPress={() => {
+        navigation.navigate("Untitled34");
+      }}><Text style={styles.bSoYZEOU}>{"Settings"}</Text></Pressable></ScrollView>
     <Pressable onPress={() => {
       navigation.navigate("Untitled24");
     }}><Text style={styles.fbtgfYEB}>{"chat"}</Text></Pressable><Pressable onPress={() => {
@@ -76,6 +78,13 @@ const styles = StyleSheet.create({
     borderRadius: 0
   },
   YMAQzWtL: {
+    width: 100,
+    height: 50,
+    lineHeight: 14,
+    fontSize: 14,
+    borderRadius: 0
+  },
+  bSoYZEOU: {
     width: 100,
     height: 50,
     lineHeight: 14,

@@ -15,7 +15,11 @@ const Untitled17 = () => {
         navigation.navigate("Untitled18");
       }}><Text style={styles.UeamxRRP}>{"Notification"}</Text></Pressable><Pressable onPress={() => {
         navigation.navigate("Untitled24");
-      }}><Text style={styles.LBefIrYB}>{"Chat"}</Text></Pressable></ScrollView>
+      }}><Text style={styles.LBefIrYB}>{"Chat"}</Text></Pressable><Pressable onPress={() => {
+        navigation.navigate("Untitled9");
+      }}><Text style={styles.NRCmlamd}>{"Social page"}</Text></Pressable><Pressable onPress={() => {
+        navigation.navigate("Untitled27");
+      }}><Text style={styles.wPbTeoEb}>{"orders"}</Text></Pressable></ScrollView>
     </SafeAreaView>;
 };
 
@@ -31,6 +35,20 @@ const styles = StyleSheet.create({
     borderRadius: 0
   },
   LBefIrYB: {
+    width: 100,
+    height: 50,
+    lineHeight: 14,
+    fontSize: 14,
+    borderRadius: 0
+  },
+  NRCmlamd: {
+    width: 100,
+    height: 50,
+    lineHeight: 14,
+    fontSize: 14,
+    borderRadius: 0
+  },
+  wPbTeoEb: {
     width: 100,
     height: 50,
     lineHeight: 14,
