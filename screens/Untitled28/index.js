@@ -3,7 +3,7 @@ import { Pressable } from "react-native";
 import { Text } from "react-native";
 import { StyleSheet, ScrollView, SafeAreaView } from "react-native";
 
-const Untitled26 = () => {
+const Untitled28 = () => {
   const navigation = useNavigation();
   return <SafeAreaView style={styles.safeArea}>
         <ScrollView contentContainerStyle={{
@@ -12,8 +12,8 @@ const Untitled26 = () => {
       position: 'relative',
       flex: 1
     }}><Pressable onPress={() => {
-        navigation.navigate("Untitled32");
-      }}><Text style={styles.naYYpxxK}>{"Details"}</Text></Pressable></ScrollView>
+        navigation.navigate("Untitled22");
+      }}><Text style={styles.KiZBJmjz}>{"Add to cart"}</Text></Pressable></ScrollView>
     </SafeAreaView>;
 };
 
@@ -21,7 +21,7 @@ const styles = StyleSheet.create({
   safeArea: {
     height: '100%'
   },
-  naYYpxxK: {
+  KiZBJmjz: {
     width: 100,
     height: 50,
     lineHeight: 14,
@@ -29,4 +29,4 @@ const styles = StyleSheet.create({
     borderRadius: 0
   }
 });
-export default Untitled26;
+export default Untitled28;
